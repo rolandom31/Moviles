@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="itesm.mx.aa0816442_p1_android_feb18.Carrito">
+
+    <TextView
+        android:id="@+id/text_consejo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="@string/carrito_mensaje"
+        android:textColor="@color/colorPrimary"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+
+
+    <ListView
+        android:id="@+id/listCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_total"
+        android:padding="30dp"
+        />
+
+</LinearLayout>
